@@ -1,0 +1,58 @@
+# Data (large files)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/sample/
+
+# Models & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+models/
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+logs/
+wandb/
+mlruns/
+reports/figures/*.png
+!reports/figures/.gitkeep
+
+# Large media
+*.tif
+*.tiff
+*.nc
+*.hdf5
+*.zip
+*.tar.gz
