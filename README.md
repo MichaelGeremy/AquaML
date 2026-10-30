@@ -88,7 +88,18 @@ venv\Scripts\activate       # Linux/macOS: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Launch Jupyter Lab
+### 2. Launch the Streamlit Web Application
+```bash
+streamlit run app.py
+```
+Explore the 5 interactive pages:
+1. **Overview Map**: Geospatial waterpoints, boreholes, rivers, and flood extents.
+2. **River Levels**: River stage time series and rating-curve derived discharge.
+3. **Forecasting**: ML river discharge forecasting with horizon sliders & NSE/KGE domain metrics.
+4. **Boreholes**: Groundwater yield analysis, WHO salinity maps & live ML yield predictor.
+5. **Data Catalogue**: Metadata browser and direct CSV downloads.
+
+### 3. Or Launch Jupyter Lab
 ```bash
 jupyter lab notebooks/
 ```
