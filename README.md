@@ -92,12 +92,12 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
-Explore the 5 interactive pages:
-1. **Overview Map**: Geospatial waterpoints, boreholes, rivers, and flood extents.
-2. **River Levels**: River stage time series and rating-curve derived discharge.
-3. **Forecasting**: ML river discharge forecasting with horizon sliders & NSE/KGE domain metrics.
-4. **Boreholes**: Groundwater yield analysis, WHO salinity maps & live ML yield predictor.
-5. **Data Catalogue**: Metadata browser and direct CSV downloads.
+Explore the 5 curated chapters:
+1. **The Kenya Water Story**: Why our country oscillates between flash floods and dry taps; hero national scorecards.
+2. **River Outlook & Advisory**: Plain-English river level & flood/drought 7–14 day forecast with advisory alerts for farmers, water companies, and citizens.
+3. **The Borehole Gamble**: Ground-truth groundwater checker, drilling depth myths, and the ASAL salinity trap.
+4. **County Water Explorer**: Select any Kenyan county to generate an instant water access and vulnerability scorecard.
+5. **Solutions & Action Plan**: Sand dams, rainwater harvesting calculators, solar desalination kiosks, and open data downloads.
 
 ### 3. Or Launch Jupyter Lab
 ```bash
